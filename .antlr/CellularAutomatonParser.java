@@ -1,4 +1,4 @@
-// Generated from c://Users//diego//OneDrive//Documentos//GitHub//Certamen-1-LP//CellularAutomaton.g4 by ANTLR 4.13.1
+// Generated from c://Users//diego//OneDrive//Escritorio//multicapa_bueno//CellularAutomaton.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -102,14 +102,6 @@ public class CellularAutomatonParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_prog; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).enterProg(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).exitProg(this);
-		}
 	}
 
 	public final ProgContext prog() throws RecognitionException {
@@ -142,14 +134,6 @@ public class CellularAutomatonParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_instruccion; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).enterInstruccion(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).exitInstruccion(this);
-		}
 	}
 
 	public final InstruccionContext instruccion() throws RecognitionException {
@@ -191,14 +175,6 @@ public class CellularAutomatonParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_configuration; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).enterConfiguration(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).exitConfiguration(this);
-		}
 	}
 
 	public final ConfigurationContext configuration() throws RecognitionException {
@@ -263,14 +239,6 @@ public class CellularAutomatonParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_infectados; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).enterInfectados(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).exitInfectados(this);
-		}
 	}
 
 	public final InfectadosContext infectados() throws RecognitionException {
@@ -301,14 +269,6 @@ public class CellularAutomatonParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_capas; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).enterCapas(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).exitCapas(this);
-		}
 	}
 
 	public final CapasContext capas() throws RecognitionException {
@@ -339,14 +299,6 @@ public class CellularAutomatonParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_tamano; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).enterTamano(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).exitTamano(this);
-		}
 	}
 
 	public final TamanoContext tamano() throws RecognitionException {
@@ -377,14 +329,6 @@ public class CellularAutomatonParser extends Parser {
 			super(parent, invokingState);
 		}
 		@Override public int getRuleIndex() { return RULE_propagacion; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).enterPropagacion(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CellularAutomatonListener ) ((CellularAutomatonListener)listener).exitPropagacion(this);
-		}
 	}
 
 	public final PropagacionContext propagacion() throws RecognitionException {
