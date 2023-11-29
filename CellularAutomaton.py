@@ -10,7 +10,7 @@ if __name__ == '__main__':
         input_stream = InputStream(sys.stdin.readline())
 
         try:
-            # análisis léxico
+            #(análisis léxico y sintáctico)
             break
         except:
             print("No se reconoce la instrucción")
@@ -21,7 +21,29 @@ if __name__ == '__main__':
     ANCHO_CAPA = ANCHO // TAMANO_CELDA
     ALTO_CAPA = ALTO // TAMANO_CELDA
     NUM_CAPAS = 3
-    # Falta código
+  
+
+    # Sección para la inicialización del autómata celular (código incompleto)
+    SUSCEPTIBLE = "S"
+    EXPUESTO = "E"
+    INFECTADO = "I"
+    RECUPERADO = "R"
+
+    capas = []
+    tiempos_expuestos = []
+
+ 
+
+    def actualizar_capas():
+
+
+        def actualizar_y_redibujar():
+            global capas, tiempos_expuestos
+            capas, tiempos_expuestos = actualizar_capas()
+            dibujar_capas()
+            root.after(1000, actualizar_y_redibujar)
+
+
 
     root = tk.Tk()
     root.title("Autómata Celular SEIR de Capas Múltiples")
